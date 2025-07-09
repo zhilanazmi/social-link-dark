@@ -9,12 +9,12 @@ const SocialLinks: React.FC = () => {
       icon: Instagram, 
       label: 'Follow on Instagram', 
       colors: {
-        bg: 'from-pink-500/40 via-purple-500/40 to-orange-500/40 dark:from-pink-500/30 dark:via-purple-500/30 dark:to-orange-500/30',
-        border: 'border-pink-500/60 dark:border-pink-400/60',
-        icon: 'text-pink-700 dark:text-pink-300',
-        text: 'text-pink-800 dark:text-pink-200',
-        shimmer: 'from-pink-500/0 via-pink-500/30 to-pink-500/0 dark:from-pink-400/0 dark:via-pink-400/20 dark:to-pink-400/0',
-        shadow: 'shadow-pink-500/20 dark:shadow-pink-400/10'
+        bg: 'from-rose-500/25 via-pink-500/25 to-orange-500/25 dark:from-rose-500/15 dark:via-pink-500/15 dark:to-orange-500/15',
+        border: 'border-rose-400/40 dark:border-rose-400/30',
+        icon: 'text-rose-600 dark:text-rose-400',
+        text: 'text-rose-700 dark:text-rose-300',
+        shimmer: 'from-rose-500/0 via-rose-500/20 to-rose-500/0 dark:from-rose-400/0 dark:via-rose-400/15 dark:to-rose-400/0',
+        shadow: 'shadow-rose-500/15 dark:shadow-rose-400/8'
       }
     },
     { 
@@ -22,12 +22,12 @@ const SocialLinks: React.FC = () => {
       icon: Twitter, 
       label: 'Follow on X', 
       colors: {
-        bg: 'from-slate-800/40 via-slate-900/40 to-black/40 dark:from-slate-600/30 dark:via-slate-700/30 dark:to-slate-800/30',
-        border: 'border-slate-800/60 dark:border-slate-500/60',
-        icon: 'text-slate-900 dark:text-slate-200',
-        text: 'text-slate-900 dark:text-slate-100',
-        shimmer: 'from-slate-800/0 via-slate-800/30 to-slate-800/0 dark:from-slate-500/0 dark:via-slate-500/20 dark:to-slate-500/0',
-        shadow: 'shadow-slate-800/20 dark:shadow-slate-500/10'
+        bg: 'from-gray-600/25 via-gray-700/25 to-gray-800/25 dark:from-gray-500/15 dark:via-gray-600/15 dark:to-gray-700/15',
+        border: 'border-gray-600/40 dark:border-gray-500/30',
+        icon: 'text-gray-700 dark:text-gray-300',
+        text: 'text-gray-800 dark:text-gray-200',
+        shimmer: 'from-gray-600/0 via-gray-600/20 to-gray-600/0 dark:from-gray-500/0 dark:via-gray-500/15 dark:to-gray-500/0',
+        shadow: 'shadow-gray-600/15 dark:shadow-gray-500/8'
       }
     },
     { 
@@ -35,12 +35,12 @@ const SocialLinks: React.FC = () => {
       icon: Linkedin, 
       label: 'Connect on LinkedIn', 
       colors: {
-        bg: 'from-blue-600/40 via-blue-700/40 to-blue-800/40 dark:from-blue-600/30 dark:via-blue-700/30 dark:to-blue-800/30',
-        border: 'border-blue-600/60 dark:border-blue-500/60',
-        icon: 'text-blue-800 dark:text-blue-300',
-        text: 'text-blue-900 dark:text-blue-200',
-        shimmer: 'from-blue-600/0 via-blue-600/30 to-blue-600/0 dark:from-blue-500/0 dark:via-blue-500/20 dark:to-blue-500/0',
-        shadow: 'shadow-blue-600/20 dark:shadow-blue-500/10'
+        bg: 'from-blue-500/25 via-blue-600/25 to-blue-700/25 dark:from-blue-500/15 dark:via-blue-600/15 dark:to-blue-700/15',
+        border: 'border-blue-500/40 dark:border-blue-400/30',
+        icon: 'text-blue-600 dark:text-blue-400',
+        text: 'text-blue-700 dark:text-blue-300',
+        shimmer: 'from-blue-500/0 via-blue-500/20 to-blue-500/0 dark:from-blue-400/0 dark:via-blue-400/15 dark:to-blue-400/0',
+        shadow: 'shadow-blue-500/15 dark:shadow-blue-400/8'
       }
     },
     { 
@@ -48,12 +48,12 @@ const SocialLinks: React.FC = () => {
       icon: Github, 
       label: 'View on GitHub', 
       colors: {
-        bg: 'from-zinc-800/40 via-zinc-900/40 to-black/40 dark:from-zinc-600/30 dark:via-zinc-700/30 dark:to-zinc-800/30',
-        border: 'border-zinc-800/60 dark:border-zinc-500/60',
-        icon: 'text-zinc-900 dark:text-zinc-200',
-        text: 'text-zinc-900 dark:text-zinc-100',
-        shimmer: 'from-zinc-800/0 via-zinc-800/30 to-zinc-800/0 dark:from-zinc-500/0 dark:via-zinc-500/20 dark:to-zinc-500/0',
-        shadow: 'shadow-zinc-800/20 dark:shadow-zinc-500/10'
+        bg: 'from-slate-700/25 via-slate-800/25 to-slate-900/25 dark:from-slate-600/15 dark:via-slate-700/15 dark:to-slate-800/15',
+        border: 'border-slate-700/40 dark:border-slate-600/30',
+        icon: 'text-slate-800 dark:text-slate-300',
+        text: 'text-slate-900 dark:text-slate-200',
+        shimmer: 'from-slate-700/0 via-slate-700/20 to-slate-700/0 dark:from-slate-600/0 dark:via-slate-600/15 dark:to-slate-600/0',
+        shadow: 'shadow-slate-700/15 dark:shadow-slate-600/8'
       }
     },
     { 
@@ -61,12 +61,12 @@ const SocialLinks: React.FC = () => {
       icon: Globe, 
       label: 'Visit Website', 
       colors: {
-        bg: 'from-emerald-500/40 via-green-500/40 to-teal-500/40 dark:from-emerald-500/30 dark:via-green-500/30 dark:to-teal-500/30',
-        border: 'border-emerald-500/60 dark:border-emerald-400/60',
-        icon: 'text-emerald-700 dark:text-emerald-300',
-        text: 'text-emerald-800 dark:text-emerald-200',
-        shimmer: 'from-emerald-500/0 via-emerald-500/30 to-emerald-500/0 dark:from-emerald-400/0 dark:via-emerald-400/20 dark:to-emerald-400/0',
-        shadow: 'shadow-emerald-500/20 dark:shadow-emerald-400/10'
+        bg: 'from-teal-500/25 via-cyan-500/25 to-blue-500/25 dark:from-teal-500/15 dark:via-cyan-500/15 dark:to-blue-500/15',
+        border: 'border-teal-500/40 dark:border-teal-400/30',
+        icon: 'text-teal-600 dark:text-teal-400',
+        text: 'text-teal-700 dark:text-teal-300',
+        shimmer: 'from-teal-500/0 via-teal-500/20 to-teal-500/0 dark:from-teal-400/0 dark:via-teal-400/15 dark:to-teal-400/0',
+        shadow: 'shadow-teal-500/15 dark:shadow-teal-400/8'
       }
     },
   ];
