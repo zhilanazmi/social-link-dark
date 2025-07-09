@@ -22,12 +22,12 @@ const SocialLinks: React.FC = () => {
       icon: Twitter, 
       label: 'Follow on X', 
       colors: {
-        bg: 'from-gray-800/40 via-black/40 to-gray-900/40 dark:from-gray-700/30 dark:via-gray-800/30 dark:to-gray-900/30',
-        border: 'border-gray-800/60 dark:border-gray-600/60',
-        icon: 'text-gray-900 dark:text-gray-300',
-        text: 'text-gray-900 dark:text-gray-200',
-        shimmer: 'from-gray-800/0 via-gray-800/30 to-gray-800/0 dark:from-gray-600/0 dark:via-gray-600/20 dark:to-gray-600/0',
-        shadow: 'shadow-gray-800/20 dark:shadow-gray-600/10'
+        bg: 'from-slate-800/40 via-slate-900/40 to-black/40 dark:from-slate-600/30 dark:via-slate-700/30 dark:to-slate-800/30',
+        border: 'border-slate-800/60 dark:border-slate-500/60',
+        icon: 'text-slate-900 dark:text-slate-200',
+        text: 'text-slate-900 dark:text-slate-100',
+        shimmer: 'from-slate-800/0 via-slate-800/30 to-slate-800/0 dark:from-slate-500/0 dark:via-slate-500/20 dark:to-slate-500/0',
+        shadow: 'shadow-slate-800/20 dark:shadow-slate-500/10'
       }
     },
     { 
@@ -48,12 +48,12 @@ const SocialLinks: React.FC = () => {
       icon: Github, 
       label: 'View on GitHub', 
       colors: {
-        bg: 'from-gray-800/40 via-gray-900/40 to-black/40 dark:from-gray-700/30 dark:via-gray-800/30 dark:to-gray-900/30',
-        border: 'border-gray-800/60 dark:border-gray-600/60',
-        icon: 'text-gray-900 dark:text-gray-300',
-        text: 'text-gray-900 dark:text-gray-200',
-        shimmer: 'from-gray-800/0 via-gray-800/30 to-gray-800/0 dark:from-gray-600/0 dark:via-gray-600/20 dark:to-gray-600/0',
-        shadow: 'shadow-gray-800/20 dark:shadow-gray-600/10'
+        bg: 'from-zinc-800/40 via-zinc-900/40 to-black/40 dark:from-zinc-600/30 dark:via-zinc-700/30 dark:to-zinc-800/30',
+        border: 'border-zinc-800/60 dark:border-zinc-500/60',
+        icon: 'text-zinc-900 dark:text-zinc-200',
+        text: 'text-zinc-900 dark:text-zinc-100',
+        shimmer: 'from-zinc-800/0 via-zinc-800/30 to-zinc-800/0 dark:from-zinc-500/0 dark:via-zinc-500/20 dark:to-zinc-500/0',
+        shadow: 'shadow-zinc-800/20 dark:shadow-zinc-500/10'
       }
     },
     { 
