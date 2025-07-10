@@ -1,5 +1,4 @@
 import React from 'react';
-import profilePhoto from '../../ZhillanAzmi-crop.png';
 
 const Avatar: React.FC = () => {
   return (
@@ -8,7 +7,7 @@ const Avatar: React.FC = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-purple-500 via-blue-500 to-teal-500 dark:from-purple-400 dark:via-blue-400 dark:to-teal-400 rounded-full animate-spin-slow"></div>
         <div className="absolute inset-1 bg-white dark:bg-gray-900 rounded-full flex items-center justify-center overflow-hidden">
           <img 
-            src={profilePhoto}
+            src="/ZhillanAzmi-crop.png"
             alt="Zhillan Azmi" 
             className="w-full h-full object-cover rounded-full"
             onError={(e) => {
