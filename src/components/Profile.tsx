@@ -10,7 +10,7 @@ const Profile: React.FC = () => {
       <div className="flex flex-wrap items-center justify-center gap-3 mb-6 animate-fade-in-up animation-delay-500">
         <div className="flex items-center gap-2 px-3 py-1 bg-gradient-to-r from-blue-100/80 to-purple-100/80 dark:from-blue-500/10 dark:to-purple-500/10 rounded-full border border-blue-300/40 dark:border-blue-500/20">
           <Code className="w-4 h-4 text-blue-600 dark:text-blue-400" />
-          <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">FullStack Developer</span>
+          <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">Fullstack Developer</span>
         </div>
         <div className="flex items-center gap-2 px-3 py-1 bg-gradient-to-r from-red-100/80 to-orange-100/80 dark:from-red-500/10 dark:to-orange-500/10 rounded-full border border-red-300/40 dark:border-red-500/20">
           <Shield className="w-4 h-4 text-red-600 dark:text-red-400" />

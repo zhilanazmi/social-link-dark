@@ -5,9 +5,9 @@ import LinkButton from './LinkButton';
 const SocialLinks: React.FC = () => {
   const links = [
     { 
-      href: '#', 
+      href: 'https://instagram.com/zhilanazmi', 
       icon: Instagram, 
-      label: 'Follow on Instagram', 
+      label: 'Instagram', 
       colors: {
         bg: 'from-rose-500/25 via-pink-500/25 to-orange-500/25 dark:from-rose-500/15 dark:via-pink-500/15 dark:to-orange-500/15',
         border: 'border-rose-400/40 dark:border-rose-400/30',
@@ -18,22 +18,9 @@ const SocialLinks: React.FC = () => {
       }
     },
     { 
-      href: '#', 
-      icon: Twitter, 
-      label: 'Follow on X', 
-      colors: {
-        bg: 'from-gray-600/25 via-gray-700/25 to-gray-800/25 dark:from-gray-500/15 dark:via-gray-600/15 dark:to-gray-700/15',
-        border: 'border-gray-600/40 dark:border-gray-500/30',
-        icon: 'text-gray-700 dark:text-gray-300',
-        text: 'text-gray-800 dark:text-gray-200',
-        shimmer: 'from-gray-600/0 via-gray-600/20 to-gray-600/0 dark:from-gray-500/0 dark:via-gray-500/15 dark:to-gray-500/0',
-        shadow: 'shadow-gray-600/15 dark:shadow-gray-500/8'
-      }
-    },
-    { 
-      href: '#', 
+      href: 'https://www.linkedin.com/in/zhilanazmi/', 
       icon: Linkedin, 
-      label: 'Connect on LinkedIn', 
+      label: 'LinkedIn', 
       colors: {
         bg: 'from-blue-500/25 via-blue-600/25 to-blue-700/25 dark:from-blue-500/15 dark:via-blue-600/15 dark:to-blue-700/15',
         border: 'border-blue-500/40 dark:border-blue-400/30',
@@ -44,9 +31,9 @@ const SocialLinks: React.FC = () => {
       }
     },
     { 
-      href: '#', 
+      href: 'https://github.com/zhilanazmi', 
       icon: Github, 
-      label: 'View on GitHub', 
+      label: 'GitHub', 
       colors: {
         bg: 'from-slate-700/25 via-slate-800/25 to-slate-900/25 dark:from-slate-600/15 dark:via-slate-700/15 dark:to-slate-800/15',
         border: 'border-slate-700/40 dark:border-slate-600/30',
@@ -57,9 +44,35 @@ const SocialLinks: React.FC = () => {
       }
     },
     { 
-      href: '#', 
+      href: 'https://x.com/zhilanazmi', 
+      icon: Twitter, 
+      label: 'X', 
+      colors: {
+        bg: 'from-gray-600/25 via-gray-700/25 to-gray-800/25 dark:from-gray-500/15 dark:via-gray-600/15 dark:to-gray-700/15',
+        border: 'border-gray-600/40 dark:border-gray-500/30',
+        icon: 'text-gray-700 dark:text-gray-300',
+        text: 'text-gray-800 dark:text-gray-200',
+        shimmer: 'from-gray-600/0 via-gray-600/20 to-gray-600/0 dark:from-gray-500/0 dark:via-gray-500/15 dark:to-gray-500/0',
+        shadow: 'shadow-gray-600/15 dark:shadow-gray-500/8'
+      }
+    },
+    { 
+      href: 'https://finflow.zhilanazmi.com', 
       icon: Globe, 
-      label: 'Visit Website', 
+      label: 'FinFlow - Expense Tracker', 
+      colors: {
+        bg: 'from-teal-500/25 via-cyan-500/25 to-blue-500/25 dark:from-teal-500/15 dark:via-cyan-500/15 dark:to-blue-500/15',
+        border: 'border-teal-500/40 dark:border-teal-400/30',
+        icon: 'text-teal-600 dark:text-teal-400',
+        text: 'text-teal-700 dark:text-teal-300',
+        shimmer: 'from-teal-500/0 via-teal-500/20 to-teal-500/0 dark:from-teal-400/0 dark:via-teal-400/15 dark:to-teal-400/0',
+        shadow: 'shadow-teal-500/15 dark:shadow-teal-400/8'
+      }
+    },
+    { 
+      href: 'https://netflix.zhilanazmi.com', 
+      icon: Globe, 
+      label: 'Netflix Premium Service', 
       colors: {
         bg: 'from-teal-500/25 via-cyan-500/25 to-blue-500/25 dark:from-teal-500/15 dark:via-cyan-500/15 dark:to-blue-500/15',
         border: 'border-teal-500/40 dark:border-teal-400/30',
