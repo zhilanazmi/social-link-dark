@@ -57,7 +57,7 @@ const SocialLinks: React.FC = () => {
       }
     },
     { 
-      href: 'https://finflow.zhilanazmi.com', 
+      href: 'https://finflow.zhilanazmi.id', 
       icon: Globe, 
       label: 'FinFlow - Expense Tracker', 
       colors: {
@@ -70,7 +70,7 @@ const SocialLinks: React.FC = () => {
       }
     },
     { 
-      href: 'https://netflix.zhilanazmi.com', 
+      href: 'https://netflix.zhilanazmi.id', 
       icon: Globe, 
       label: 'Netflix Premium Service', 
       colors: {
